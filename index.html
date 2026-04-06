@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Values</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Poppins', Arial, sans-serif;
+            background: linear-gradient(135deg, #eef2f3, #d9e7ff);
+            color: #1f2937;
+        }
+
+        header {
+            background: linear-gradient(135deg, #111827, #2563eb);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.18);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        .hero {
+            max-width: 1000px;
+            margin: 30px auto 10px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        .hero img {
+            width: 100%;
+            max-width: 900px;
+            height: 320px;
+            object-fit: cover;
+            border-radius: 20px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+            border: 5px solid white;
+        }
+
+        .hero h2 {
+            margin-top: 20px;
+            font-size: 2rem;
+            color: #111827;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .intro {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 35px auto;
+            font-size: 1.05rem;
+            color: #374151;
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+        }
+
+        .value-card {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 18px;
+            padding: 24px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+            border-top: 6px solid #2563eb;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .value-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 16px 35px rgba(0, 0, 0, 0.18);
+        }
+
+        .value-card h2 {
+            margin-top: 0;
+            color: #2563eb;
+            font-size: 1.4rem;
+        }
+
+        .value-card p {
+            line-height: 1.7;
+            color: #374151;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1d4ed8;
+            padding: 6px 12px;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 14px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px 20px 40px;
+            color: #4b5563;
+            font-size: 0.95rem;
+        }
+
+        .highlight {
+            color: #2563eb;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Hayden Lipinski</h1>
+    <p>April 5, 2026 | Personal Values Assignment</p>
+</header>
+
+<nav style="text-align:center; margin-top:15px;">
+    <a href="index.html">Home</a> |
+    <a href="industry.html">Civil Engineering Page</a>
+</nav>
+
+<section class="hero">
+    <img src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=1200&q=80" alt="Inspiring lifestyle image">
+    <h2>My Personal Values</h2>
+</section>
+
+<main>
+    <p class="intro">
+        The values I live by shape my choices, my attitude, and the way I treat other people.
+        These four values help me stay focused, healthy, and trustworthy in everyday life.
+    </p>
+
+    <section class="values-grid">
+        <div class="value-card">
+            <div class="badge">Value 1</div>
+            <h2>Being Organized</h2>
+            <p>
+                I value being organized because it helps me manage my stress beter and help with life in general.
+                I learned that planning ahead makes school, work, and life easier to manage.
+            </p>
+            <p>
+                This value is important because it helps me stay productive and dependable.
+                Without organization, I could fall behind, forget important tasks, and feel overwhelmed.
+            </p>
+        </div>
+
+        <div class="value-card">
+            <div class="badge">Value 2</div>
+            <h2>Staying Positive</h2>
+            <p>
+                I believe in staying positive even when things are difficult.
+                A positive mindset helps me keep going when challenges show up.
+            </p>
+            <p>
+                This value is important because it makes life for me more enjoyable and I can make others days better aswell.
+                Without positivity, I could get discouraged more easily and lose motivation.
+            </p>
+        </div>
+
+        <div class="value-card">
+            <div class="badge">Value 3</div>
+            <h2>Living Healthy</h2>
+            <p>
+                Living healthy is important to me because taking care of my body affects my energy, focus, and future.
+                I try to make good choices with food, exercise, and rest.
+            </p>
+            <p>
+                If I do not stay healthy, it can affect my mood, performance, and overall quality of life.
+                Health is something I want to protect now and in the future.
+            </p>
+        </div>
+
+        <div class="value-card">
+            <div class="badge">Value 4</div>
+            <h2>Being Honest</h2>
+            <p>
+                Honesty is one of my strongest values because it builds trust and respect.
+                I learned that telling the truth is important in relationships and everyday life.
+            </p>
+            <p>
+                This value matters because it helps me keep strong relationships and a good reputation.
+                Without honesty, trust can break and relationships can suffer.
+            </p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    Made for the <span class="highlight">Personal Values</span> assignment
+</footer>
+
+</body>
+</html>
